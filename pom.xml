@@ -7,12 +7,11 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.9.RELEASE</version>
 		<relativePath/>
-		<!-- lookup parent from repository -->
 	</parent>
 	<groupId>co.elastic.support</groupId>
-	<artifactId>case-01173843-demo</artifactId>
+	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>case-01173843-demo</name>
+	<name>demo</name>
 	<description>Demo project for Spring Boot + Elastic APM Agent Java + Hibernate Search</description>
 	<properties>
 		<java.version>11</java.version>
@@ -42,11 +41,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
 		<dependency>

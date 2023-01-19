@@ -1,4 +1,4 @@
-package co.elastic.support.case01173843demo;
+package co.elastic.support.demo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

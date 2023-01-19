@@ -1,20 +1,27 @@
-package co.elastic.support.case01173843demo;
+package co.elastic.support.demo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import org.hibernate.search.annotations.Field;
+import org.hibernate.search.annotations.Indexed;
+
 @Entity
+@Indexed(index = "books")
 public class Book {
 
     @Id
     @GeneratedValue
     private Integer id;
 
+    @Field
     private String title;
 
+    @Field
     private String isbn;
 
+    @Field
     private int pageCount;
 
     public Book() {
