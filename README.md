@@ -1,6 +1,10 @@
 # hibernate-search-with-apm-poc
 Proof of concept Spring Boot application that uses Hibernate Search version 5.11.1 to index documents to an Elasticsearch 5.x backend
 
+## Requirements
+* JDK 11
+* Maven
+
 ## Configuration
 Before running, add the [minimal configuration](https://www.elastic.co/guide/en/apm/agent/java/1.x/configuration.html#configuration-minimal) properties (and a secret token if needed) to the elasticapm.properties located at src/main/resources:
 
